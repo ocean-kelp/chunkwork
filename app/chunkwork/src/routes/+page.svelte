@@ -9,6 +9,11 @@
     // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
     greetMsg = await invoke("greet", { name });
   }
+
+  async function goHome() {
+    // Navigate to the home page
+    window.location.href = "/home";
+  }
 </script>
 
 <main class="container">
@@ -31,6 +36,11 @@
     <input id="greet-input" placeholder="Enter a name..." bind:value={name} />
     <button type="submit">Greet</button>
   </form>
+
+  <button onclick={goHome}>
+    Go to Home
+  </button>
+
   <p>{greetMsg}</p>
 </main>
 
