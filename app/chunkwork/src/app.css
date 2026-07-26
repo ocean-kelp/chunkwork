@@ -12,6 +12,6 @@
   
   body {
     font-family: var(--font-sans);
-    min-height: 100vh;
+    /* min-height: 100vh;  height will now be handled by the group layouts. */ 
   }
 }

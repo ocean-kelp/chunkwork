@@ -6,7 +6,3 @@
     <h1>Welcome to the Home Page</h1>
     
 </main>
-
-<style lang="postcss">
-    @reference "tailwindcss";
-</style>
