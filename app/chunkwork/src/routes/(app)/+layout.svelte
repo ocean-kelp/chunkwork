@@ -27,6 +27,6 @@
   pt-16 (padding-top: 4rem) offsets the fixed header height
   so page content starts below it, not underneath it.
 -->
-<div class="pt-16 min-h-[calc(100vh-4rem)]">
+<div class="pt-16 min-h-[calc(100vh-4rem)] flex flex-col">
   {@render children()}
 </div>
