@@ -1,4 +1,5 @@
 <script>
+
   let { children } = $props();
   import "../app.css";
 
@@ -9,7 +10,5 @@
   import '@fontsource/poppins/700.css';
 
 </script>
-
-
 
 {@render children()}
