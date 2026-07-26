@@ -8,7 +8,6 @@
   Routes in this group:
   - /           (home)
   - /dashboard
-  - /settings
 -->
 <script lang="ts">
   import { type Snippet } from "svelte";
